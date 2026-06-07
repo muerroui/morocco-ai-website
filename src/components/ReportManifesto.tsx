@@ -1,5 +1,6 @@
 'use client'
 import { useRef } from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { motion, useInView } from 'framer-motion'
 
@@ -83,45 +84,20 @@ export default function ReportManifesto() {
             </motion.div>
           </div>
 
-          {/* Abstract "report" document */}
+          {/* Report cover image */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95, x: 20 }}
             animate={inView ? { opacity: 1, scale: 1, x: 0 } : {}}
             transition={{ delay: 0.2, duration: 0.9, ease: EXPO }}
             className="hidden lg:block shrink-0"
           >
-            <div className="relative w-64 h-80 rounded-2xl border border-bone/10 bg-[#111114] overflow-hidden">
-              {/* Navy + red header bar */}
-              <div className="h-1.5 bg-gradient-to-r from-navy via-red to-navy" />
-
-              <div className="p-8 space-y-4 mt-2">
-                <div className="space-y-2">
-                  <div className="h-2 bg-bone/18 rounded-full w-4/5" />
-                  <div className="h-2 bg-bone/18 rounded-full w-3/5" />
-                </div>
-                <div className="h-px bg-bone/8 my-4" />
-                {[0.7, 0.9, 0.6, 0.8, 0.5, 0.75, 0.85, 0.55, 0.7].map((w, i) => (
-                  <div
-                    key={i}
-                    className="h-1.5 bg-bone/8 rounded-full"
-                    style={{ width: `${w * 100}%` }}
-                  />
-                ))}
-
-                {/* Geometric ornament — navy hex */}
-                <div className="absolute bottom-6 end-6">
-                  <svg width="40" height="40" viewBox="0 0 60 60" fill="none" aria-hidden="true">
-                    <polygon points="30,2 58,16 58,44 30,58 2,44 2,16"
-                      stroke="#1F2A5C" strokeWidth="0.8" opacity="0.5" />
-                    <polygon points="30,12 50,22 50,38 30,48 10,38 10,22"
-                      stroke="#1F2A5C" strokeWidth="0.5" opacity="0.3" />
-                    <circle cx="30" cy="30" r="5" stroke="#C8202F" strokeWidth="0.8" opacity="0.5" />
-                  </svg>
-                </div>
-              </div>
-
-              {/* Red bottom accent */}
-              <div className="absolute bottom-0 start-0 end-0 h-px bg-red/30" />
+            <div className="relative w-64 h-80 rounded-2xl border border-bone/10 overflow-hidden shadow-2xl shadow-navy/20">
+              <Image
+                src="/images/report-cover.png"
+                alt="National AI Strategy Report"
+                fill
+                className="object-cover"
+              />
             </div>
           </motion.div>
         </div>

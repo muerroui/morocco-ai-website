@@ -19,11 +19,12 @@ function SpeakerCard({ s }: { s: Member }) {
       <div className="relative w-12 h-12 rounded-full overflow-hidden bg-gradient-to-br from-navy/20 to-navy/05 border border-bone/10 mb-5 group-hover:border-navy/40 transition-colors duration-300">
         {s.image ? (
           <Image
-            src={urlFor(s.image).width(96).height(96).url()}
+            src={urlFor(s.image).url()}
             alt={s.name}
             fill
             sizes="48px"
             className="object-cover"
+            unoptimized
           />
         ) : (
           <div className="flex items-center justify-center h-full w-full">

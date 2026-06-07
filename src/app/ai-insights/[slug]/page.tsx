@@ -37,10 +37,11 @@ function BlockContent({ blocks }: { blocks: PortableTextBlock[] }) {
           return (
             <div key={block._key} className="relative h-64 sm:h-96 w-full rounded-xl overflow-hidden my-6">
               <Image
-                src={urlFor({ _type: 'image', asset: block.asset }).width(900).url()}
+                src={urlFor({ _type: 'image', asset: block.asset }).url()}
                 alt=""
                 fill
                 className="object-cover"
+                unoptimized
               />
             </div>
           )
@@ -130,11 +131,12 @@ export default async function ArticleDetailPage({
         {article.mainImage && (
           <div className="relative h-64 sm:h-[420px] w-full rounded-2xl overflow-hidden mb-10">
             <Image
-              src={urlFor(article.mainImage).width(900).height(500).url()}
+              src={urlFor(article.mainImage).url()}
               alt={article.title}
               fill
               sizes="(max-width: 768px) 100vw, 768px"
               className="object-cover"
+              unoptimized
               priority
             />
           </div>

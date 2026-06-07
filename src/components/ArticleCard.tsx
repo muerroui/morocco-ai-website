@@ -13,11 +13,12 @@ export default function ArticleCard({ article, featured = false }: { article: Ar
       <div className={`relative bg-navy-tint overflow-hidden shrink-0 ${featured ? 'h-56 md:h-auto md:w-96' : 'h-48'}`}>
         {article.mainImage ? (
           <Image
-            src={urlFor(article.mainImage).width(featured ? 768 : 640).height(featured ? 448 : 320).url()}
+            src={urlFor(article.mainImage).url()}
             alt={article.title}
             fill
             sizes={featured ? '(max-width: 768px) 100vw, 384px' : '(max-width: 768px) 100vw, 33vw'}
             className="object-cover"
+            unoptimized
           />
         ) : (
           <div className="flex items-center justify-center h-full">

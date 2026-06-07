@@ -13,11 +13,12 @@ export default function MemberCard({ member }: { member: Member }) {
         {member.image ? (
           <>
             <Image
-              src={urlFor(member.image).width(160).height(160).url()}
+              src={urlFor(member.image).url()}
               alt={member.name}
               fill
               sizes="80px"
               className="object-cover duotone group-hover:filter-none transition-all duration-400"
+              unoptimized
             />
             <div className="absolute inset-0 bg-[#1B2A6B]/50 group-hover:opacity-0 transition-opacity duration-300" />
           </>

@@ -96,11 +96,12 @@ export default async function WebinarDetailPage({
           <div className="relative w-16 h-16 rounded-full overflow-hidden bg-navy-tint shrink-0">
             {webinar.speakerImage ? (
               <Image
-                src={urlFor(webinar.speakerImage).width(128).height(128).url()}
+                src={urlFor(webinar.speakerImage).url()}
                 alt={webinar.speakerName}
                 fill
                 sizes="64px"
                 className="object-cover"
+                unoptimized
               />
             ) : (
               <div className="flex items-center justify-center h-full">

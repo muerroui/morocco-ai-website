@@ -90,10 +90,11 @@ export default function EventsContent({ events }: { events: Event[] }) {
                       {ev.image?.asset && (
                         <div className="shrink-0 w-20 h-20 rounded-xl overflow-hidden">
                           <Image
-                            src={urlFor(ev.image).width(160).height(160).url()}
+                            src={urlFor(ev.image).url()}
                             alt={ev.title}
                             width={80} height={80}
                             className="w-full h-full object-cover"
+                            unoptimized
                           />
                         </div>
                       )}
@@ -166,10 +167,11 @@ export default function EventsContent({ events }: { events: Event[] }) {
                         {ev.image?.asset && (
                           <div className="shrink-0 w-8 h-8 rounded-lg overflow-hidden">
                             <Image
-                              src={urlFor(ev.image).width(64).height(64).url()}
+                              src={urlFor(ev.image).url()}
                               alt={ev.title}
                               width={32} height={32}
                               className="w-full h-full object-cover"
+                              unoptimized
                             />
                           </div>
                         )}
