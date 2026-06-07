@@ -91,7 +91,7 @@ export default function ConferencePage() {
       </section>
 
       {/* 2025 teaser */}
-      <section className="bg-navy/[0.08] border-y border-navy/20">
+      <section className="bg-red/[0.08] border-y border-navy/20">
         <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-7">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
             <div>

@@ -90,7 +90,7 @@ export default function NewsletterPage() {
                       className="w-full px-4 py-3.5 rounded-xl bg-bone/[0.04] border border-bone/[0.08] text-bone placeholder-bone/25 focus:outline-none focus:border-navy/50 text-sm"
                     />
                     <button type="submit"
-                      className="w-full bg-navy text-bone py-4 rounded-xl text-xs font-bold tracking-[0.2em] uppercase hover:bg-navy-900 transition-colors duration-300 mt-2">
+                      className="w-full bg-red text-bone py-4 rounded-xl text-xs font-bold tracking-[0.2em] uppercase hover:bg-red-900 transition-colors duration-300 mt-2">
                       Subscribe Free
                     </button>
                   </form>
@@ -107,7 +107,7 @@ export default function NewsletterPage() {
               ) : (
                 <motion.div initial={{ opacity: 0, scale: 0.97 }} animate={{ opacity: 1, scale: 1 }}
                   className="py-8 text-center">
-                  <div className="w-12 h-12 rounded-full bg-navy/20 border border-navy/30 flex items-center justify-center mx-auto mb-4">
+                  <div className="w-12 h-12 rounded-full bg-red/20 border border-navy/30 flex items-center justify-center mx-auto mb-4">
                     <svg className="w-5 h-5 text-bone/70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>

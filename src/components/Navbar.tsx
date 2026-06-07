@@ -126,7 +126,7 @@ export default function Navbar() {
                         onClick={() => { setLang(l); setLangOpen(false) }}
                         className={`block w-full text-start px-4 py-2.5 text-[0.65rem] font-semibold tracking-widest uppercase transition-colors ${
                           lang === l
-                            ? 'text-navy-50 bg-navy/10'
+                            ? 'text-navy-50 bg-red/10'
                             : 'text-bone/50 hover:text-bone hover:bg-bone/[0.04]'
                         }`}
                       >

@@ -55,7 +55,7 @@ export default function EventCard({ event }: { event: Event }) {
           ) : (
             <Link
               href={`/events`}
-              className="inline-block text-sm font-semibold text-navy border border-navy px-4 py-1.5 rounded-lg hover:bg-navy-tint transition-colors"
+              className="inline-block text-sm font-semibold text-navy border border-navy px-4 py-1.5 rounded-lg hover:bg-red-tint transition-colors"
             >
               {isPast ? 'View Details' : 'Learn More'}
             </Link>

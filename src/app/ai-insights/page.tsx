@@ -41,7 +41,7 @@ export default async function AIInsightsPage({
             href="/ai-insights"
             className={`px-4 py-1.5 rounded-full text-sm font-semibold border transition-colors ${
               !tag
-                ? 'bg-navy text-white border-navy'
+                ? 'bg-red text-white border-navy'
                 : 'bg-white text-gray-600 border-gray-200 hover:border-navy hover:text-navy'
             }`}
           >
@@ -53,7 +53,7 @@ export default async function AIInsightsPage({
               href={`/ai-insights?tag=${encodeURIComponent(t)}`}
               className={`px-4 py-1.5 rounded-full text-sm font-semibold border transition-colors ${
                 tag === t
-                  ? 'bg-navy text-white border-navy'
+                  ? 'bg-red text-white border-navy'
                   : 'bg-white text-gray-600 border-gray-200 hover:border-navy hover:text-navy'
               }`}
             >

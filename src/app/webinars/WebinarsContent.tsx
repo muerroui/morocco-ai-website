@@ -92,7 +92,7 @@ export default function WebinarsContent({ webinars }: { webinars: Webinar[] }) {
               {allYears.map((y) => (
                 <button key={y} onClick={() => setYear(y)}
                   className={`px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wide transition-all duration-200 ${
-                    year === y ? 'bg-navy text-bone/90' : 'text-bone/30 hover:text-bone/60 hover:bg-bone/[0.04]'
+                    year === y ? 'bg-red text-bone/90' : 'text-bone/30 hover:text-bone/60 hover:bg-bone/[0.04]'
                   }`}>{y}</button>
               ))}
             </div>
@@ -209,7 +209,7 @@ export default function WebinarsContent({ webinars }: { webinars: Webinar[] }) {
                 </p>
               </div>
               <Link href="/newsletter"
-                className="shrink-0 inline-flex items-center gap-2 bg-navy text-bone px-7 py-4 rounded-full text-xs font-bold tracking-[0.2em] uppercase hover:bg-navy-900 transition-colors duration-300">
+                className="shrink-0 inline-flex items-center gap-2 bg-red text-bone px-7 py-4 rounded-full text-xs font-bold tracking-[0.2em] uppercase hover:bg-red-900 transition-colors duration-300">
                 Subscribe Free
                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />

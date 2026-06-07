@@ -71,7 +71,7 @@ export default function PodcastsPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-navy py-20">
+      <section className="bg-red py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-sm font-semibold text-red uppercase tracking-widest mb-3">Listen</p>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-5">Morocco.AI Podcasts</h1>
@@ -82,7 +82,7 @@ export default function PodcastsPage() {
       </section>
 
       {/* Platforms */}
-      <section className="bg-navy-tint border-b border-gray-200">
+      <section className="bg-red-tint border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-wrap items-center justify-center gap-6">
           <span className="text-sm font-medium text-gray-500">Available on:</span>
           {['Spotify', 'Apple Podcasts', 'YouTube', 'Google Podcasts'].map((platform) => (
@@ -116,7 +116,7 @@ export default function PodcastsPage() {
                   <p className="text-sm text-gray-600 leading-relaxed mb-3">{ep.description}</p>
                   <div className="flex flex-wrap gap-1">
                     {ep.guests.map((g) => (
-                      <span key={g} className="text-xs bg-navy-tint text-navy px-2 py-0.5 rounded-full font-medium">
+                      <span key={g} className="text-xs bg-red-tint text-navy px-2 py-0.5 rounded-full font-medium">
                         {g}
                       </span>
                     ))}
@@ -124,7 +124,7 @@ export default function PodcastsPage() {
                 </div>
 
                 <button
-                  className="shrink-0 w-12 h-12 bg-navy rounded-full flex items-center justify-center hover:bg-navy-light transition-colors"
+                  className="shrink-0 w-12 h-12 bg-red rounded-full flex items-center justify-center hover:bg-red-light transition-colors"
                   aria-label={`Listen to ${ep.title}`}
                 >
                   <svg className="w-5 h-5 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
@@ -136,7 +136,7 @@ export default function PodcastsPage() {
           ))}
         </div>
 
-        <div className="mt-12 bg-navy rounded-2xl p-8 text-center">
+        <div className="mt-12 bg-red rounded-2xl p-8 text-center">
           <h3 className="text-xl font-bold text-white mb-2">Suggest a Topic or Guest</h3>
           <p className="text-navy-tint text-sm mb-5">
             Have an idea for an episode or want to be featured? We&apos;d love to hear from you.

@@ -112,7 +112,7 @@ export default function AboutContent() {
 
             {/* Mission */}
             <FadeUp>
-              <div className="relative bg-navy/10 border border-navy/20 rounded-2xl p-10 lg:p-14 overflow-hidden">
+              <div className="relative bg-red/10 border border-navy/20 rounded-2xl p-10 lg:p-14 overflow-hidden">
                 <div className="absolute top-0 start-0 w-full h-px bg-gradient-to-r from-navy/60 via-navy/20 to-transparent" />
                 <p className="text-label text-bone/28 mb-6 flex items-center gap-3">
                   <span className="w-6 h-px bg-red inline-block" />
@@ -246,7 +246,7 @@ export default function AboutContent() {
                 {PARTNERS.map((name) => (
                   <div
                     key={name}
-                    className="flex-1 min-w-[100px] bg-[#111114] hover:bg-navy/10 transition-colors duration-300 px-8 py-7 flex items-center justify-center"
+                    className="flex-1 min-w-[100px] bg-[#111114] hover:bg-red/10 transition-colors duration-300 px-8 py-7 flex items-center justify-center"
                   >
                     <span className="font-display font-light text-bone/38 hover:text-bone/65 transition-colors tracking-tight text-lg">
                       {name}

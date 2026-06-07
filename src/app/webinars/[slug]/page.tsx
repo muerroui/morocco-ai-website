@@ -52,7 +52,7 @@ export default async function WebinarDetailPage({
       {webinar.tags && webinar.tags.length > 0 && (
         <div className="flex flex-wrap gap-2 mb-4">
           {webinar.tags.map((tag) => (
-            <span key={tag} className="text-xs bg-navy-tint text-navy px-3 py-1 rounded-full font-medium">
+            <span key={tag} className="text-xs bg-red-tint text-navy px-3 py-1 rounded-full font-medium">
               {tag}
             </span>
           ))}
@@ -76,7 +76,7 @@ export default async function WebinarDetailPage({
           />
         </div>
       ) : (
-        <div className="aspect-video w-full rounded-2xl bg-navy-tint flex items-center justify-center mb-10">
+        <div className="aspect-video w-full rounded-2xl bg-red-tint flex items-center justify-center mb-10">
           <p className="text-gray-400">Video not available yet</p>
         </div>
       )}
@@ -93,7 +93,7 @@ export default async function WebinarDetailPage({
       <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
         <h2 className="text-lg font-bold text-navy mb-4">Speaker</h2>
         <div className="flex items-start gap-5">
-          <div className="relative w-16 h-16 rounded-full overflow-hidden bg-navy-tint shrink-0">
+          <div className="relative w-16 h-16 rounded-full overflow-hidden bg-red-tint shrink-0">
             {webinar.speakerImage ? (
               <Image
                 src={urlFor(webinar.speakerImage).url()}

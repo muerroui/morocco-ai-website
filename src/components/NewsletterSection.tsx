@@ -77,7 +77,7 @@ export default function NewsletterSection() {
             />
             <button
               type="submit"
-              className="group inline-flex items-center justify-center gap-2 bg-navy text-bone px-7 py-4 rounded-full text-xs font-bold tracking-[0.2em] uppercase hover:bg-navy-900 transition-colors duration-300 shrink-0"
+              className="group inline-flex items-center justify-center gap-2 bg-red text-bone px-7 py-4 rounded-full text-xs font-bold tracking-[0.2em] uppercase hover:bg-red-900 transition-colors duration-300 shrink-0"
             >
               Subscribe
               <svg className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">

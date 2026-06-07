@@ -10,7 +10,7 @@ export default function ArticleCard({ article, featured = false }: { article: Ar
         featured ? 'flex-col md:flex-row' : 'flex-col'
       }`}
     >
-      <div className={`relative bg-navy-tint overflow-hidden shrink-0 ${featured ? 'h-56 md:h-auto md:w-96' : 'h-48'}`}>
+      <div className={`relative bg-red-tint overflow-hidden shrink-0 ${featured ? 'h-56 md:h-auto md:w-96' : 'h-48'}`}>
         {article.mainImage ? (
           <Image
             src={urlFor(article.mainImage).url()}
