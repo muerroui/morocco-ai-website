@@ -36,6 +36,12 @@ export const webinar = defineType({
       type: 'text',
     }),
     defineField({
+      name: 'thumbnail',
+      title: 'Webinar Thumbnail',
+      type: 'image',
+      options: {hotspot: true},
+    }),
+    defineField({
       name: 'speakerImage',
       title: 'Speaker Image',
       type: 'image',

@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Webinar } from '@/lib/types'
-import { extractYouTubeId, formatDate } from '@/lib/image'
+import { urlFor, extractYouTubeId, formatDate } from '@/lib/image'
 
 export default function WebinarCard({ webinar }: { webinar: Webinar }) {
   const ytId = webinar.youtubeUrl ? extractYouTubeId(webinar.youtubeUrl) : null
-  const thumbUrl = ytId ? `https://img.youtube.com/vi/${ytId}/hqdefault.jpg` : null
+  const sanityThumb = webinar.thumbnail ? urlFor(webinar.thumbnail).url() : null
+  const thumbUrl = sanityThumb ?? (ytId ? `https://img.youtube.com/vi/${ytId}/hqdefault.jpg` : null)
 
   return (
     <article className="bg-[#1A1A2E] border border-white/5 rounded-xl overflow-hidden hover:border-white/20 hover:shadow-2xl hover:shadow-[#C0272D]/10 transition-all duration-300 flex flex-col group">
@@ -21,7 +22,7 @@ export default function WebinarCard({ webinar }: { webinar: Webinar }) {
               fill
               sizes="(max-width: 768px) 100vw, 33vw"
               className="object-cover duotone opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
-              unoptimized
+              unoptimized={!!sanityThumb}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#1A1A2E] via-transparent to-transparent" />
           </>

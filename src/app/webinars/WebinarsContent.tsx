@@ -3,7 +3,7 @@ import { useState, useRef } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { motion, useInView, AnimatePresence } from 'framer-motion'
-import { extractYouTubeId } from '@/lib/image'
+import { urlFor, extractYouTubeId } from '@/lib/image'
 import type { Webinar } from '@/lib/types'
 
 const EXPO: [number, number, number, number] = [0.16, 1, 0.3, 1]
@@ -119,8 +119,9 @@ export default function WebinarsContent({ webinars }: { webinars: Webinar[] }) {
             <AnimatePresence mode="popLayout">
               <motion.div layout className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
                 {filtered.map((w, i) => {
-                  const ytId       = w.youtubeUrl ? extractYouTubeId(w.youtubeUrl) : null
-                  const thumbUrl   = ytId ? `https://img.youtube.com/vi/${ytId}/mqdefault.jpg` : null
+                  const ytId         = w.youtubeUrl ? extractYouTubeId(w.youtubeUrl) : null
+                  const sanityThumb  = w.thumbnail ? urlFor(w.thumbnail).url() : null
+                  const thumbUrl     = sanityThumb ?? (ytId ? `https://img.youtube.com/vi/${ytId}/mqdefault.jpg` : null)
                   const primaryTag = w.tags?.[0]
                   const tagColor   = TOPIC_COLORS[i % TOPIC_COLORS.length]
 
@@ -130,15 +131,16 @@ export default function WebinarsContent({ webinars }: { webinars: Webinar[] }) {
                       transition={{ duration: 0.4, delay: i * 0.04, ease: EXPO }}
                       className="group relative bg-[#111114] border border-bone/[0.06] rounded-2xl overflow-hidden transition-all duration-500 hover:border-bone/14 flex flex-col"
                     >
-                      {/* YouTube thumbnail */}
+                      {/* Thumbnail */}
                       {thumbUrl && (
-                        <div className="relative w-full aspect-video overflow-hidden">
+                        <div className={`relative w-full overflow-hidden ${sanityThumb ? 'aspect-square' : 'aspect-video'}`}>
                           <Image
                             src={thumbUrl}
                             alt={w.title}
                             fill
-                            className="object-cover group-hover:scale-105 transition-transform duration-500"
+                            className={`group-hover:scale-105 transition-transform duration-500 ${sanityThumb ? 'object-contain bg-[#0a0a0f]' : 'object-cover'}`}
                             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                            unoptimized={!!sanityThumb}
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-[#111114] via-transparent to-transparent opacity-60" />
                           {w.youtubeUrl && (

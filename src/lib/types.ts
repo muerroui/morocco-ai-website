@@ -21,6 +21,7 @@ export interface Webinar {
   date: string
   speakerName: string
   speakerBio?: string
+  thumbnail?: SanityImage
   speakerImage?: SanityImage
   description?: string
   youtubeUrl?: string
