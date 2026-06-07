@@ -1,112 +1,131 @@
 @import "tailwindcss";
 
 @theme {
-  --color-navy: #1B2A6B;
-  --color-navy-light: #2D3E8E;
-  --color-navy-tint: #E8EAF4;
-  --color-red: #C0272D;
-  --color-red-tint: #FCEAEA;
-  --font-family-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  /* ── Official MoroccoAI Brand Palette ── */
+  --color-navy:       #1F2A5C;
+  --color-navy-50:    #EEF0F7;
+  --color-navy-900:   #141B3D;
+  --color-red:        #C8202F;
+  --color-red-50:     #FBEAEC;
+  --color-red-900:    #7A1219;
+  --color-ink:        #0A0A0B;
+  --color-bone:       #F5F1EA;
+  --color-mist:       #E8E5DE;
+
+  /* ── Fonts ── */
+  --font-display:        var(--font-fraunces), 'Georgia', serif;
+  --font-sans:           var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  /* keep legacy aliases for custom utilities */
+  --font-family-display: var(--font-fraunces), 'Georgia', serif;
+  --font-family-sans:    var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-family-arabic:  var(--font-arabic), var(--font-inter), ui-sans-serif, sans-serif;
 }
 
+/* ── Base ── */
 @layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
   body {
-    background-color: #0A0A0A;
-    color: #374151;
+    background-color: #0A0A0B;
+    color: #F5F1EA;
+    font-family: var(--font-family-sans);
+    overflow-x: hidden;
+  }
+
+  /* Film grain overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0.028;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 200px 200px;
+  }
+
+  ::selection {
+    background: #C8202F;
+    color: #F5F1EA;
+  }
+
+  :focus-visible {
+    outline: 2px solid #1F2A5C;
+    outline-offset: 3px;
+    border-radius: 2px;
   }
 }
 
-@keyframes aurora-drift {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  33% { transform: translate(30px, -30px) scale(1.08); }
-  66% { transform: translate(-20px, 15px) scale(0.94); }
-}
-
-@keyframes node-float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-8px); }
-}
-
-@keyframes section-dot-pulse {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.4; transform: scale(0.6); }
-}
-
+/* ── Utilities ── */
 @layer utilities {
-  .bg-dot-pattern {
-    background-image: radial-gradient(circle, #1B2A6B22 1px, transparent 1px);
-    background-size: 28px 28px;
+  /* Typography scale */
+  .text-display-xl {
+    font-family: var(--font-family-display);
+    font-size: clamp(3.5rem, 9vw, 8rem);
+    font-weight: 300;
+    line-height: 0.96;
+    letter-spacing: -0.025em;
+    font-optical-sizing: auto;
   }
 
-  .aurora-bg {
-    position: relative;
-    overflow: hidden;
-  }
-
-  .aurora-bg::before {
-    content: '';
-    position: absolute;
-    top: -200px;
-    left: -200px;
-    width: 400px;
-    height: 400px;
-    background: radial-gradient(circle, #1B2A6B, transparent 70%);
-    filter: blur(80px);
-    opacity: 0.6;
-    pointer-events: none;
-    z-index: 0;
-    animation: aurora-drift 12s ease-in-out infinite;
-  }
-
-  .aurora-bg::after {
-    content: '';
-    position: absolute;
-    bottom: -150px;
-    right: -150px;
-    width: 300px;
-    height: 300px;
-    background: radial-gradient(circle, #C0272D, transparent 70%);
-    filter: blur(80px);
-    opacity: 0.4;
-    pointer-events: none;
-    z-index: 0;
-    animation: aurora-drift 14s ease-in-out infinite reverse;
-  }
-
-  .text-display {
-    font-size: clamp(48px, 8vw, 96px);
-    font-weight: 900;
-    line-height: 0.95;
+  .text-display-lg {
+    font-family: var(--font-family-display);
+    font-size: clamp(2.5rem, 6vw, 5.5rem);
+    font-weight: 300;
+    line-height: 1.0;
     letter-spacing: -0.02em;
-    text-transform: uppercase;
   }
 
   .text-display-md {
-    font-size: clamp(32px, 5vw, 64px);
-    font-weight: 800;
-    line-height: 1.0;
+    font-family: var(--font-family-display);
+    font-size: clamp(1.8rem, 4vw, 3.5rem);
+    font-weight: 300;
+    line-height: 1.1;
+    letter-spacing: -0.015em;
+  }
+
+  .text-label {
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.25em;
     text-transform: uppercase;
+    font-family: var(--font-family-sans);
   }
 
-  .duotone {
-    filter: grayscale(100%) contrast(1.2);
+  /* Zellige-inspired hex grid (background flourish) */
+  .zellige-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg fill='none' stroke='%23F5F1EA' stroke-width='0.4' opacity='0.35'%3E%3Cpolygon points='30,2 58,16 58,44 30,58 2,44 2,16'/%3E%3Cpolygon points='30,10 50,20 50,40 30,50 10,40 10,20'/%3E%3Ccircle cx='30' cy='30' r='6'/%3E%3Cline x1='30' y1='2' x2='30' y2='10'/%3E%3Cline x1='58' y1='16' x2='50' y2='20'/%3E%3Cline x1='58' y1='44' x2='50' y2='40'/%3E%3Cline x1='30' y1='58' x2='30' y2='50'/%3E%3Cline x1='2' y1='44' x2='10' y2='40'/%3E%3Cline x1='2' y1='16' x2='10' y2='20'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 60px 60px;
   }
 
-  .section-dot {
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: #C0272D;
-    animation: section-dot-pulse 2s ease-in-out infinite;
+  /* Reduced-motion global disable */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
   }
+}
 
-  .section-dot-delayed {
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: #1B2A6B;
-    animation: section-dot-pulse 2s ease-in-out infinite 0.6s;
-  }
+/* ── Keyframes ── */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50%       { transform: translateY(-12px) rotate(1deg); }
+}
+
+.animate-marquee {
+  animation: marquee 32s linear infinite;
 }

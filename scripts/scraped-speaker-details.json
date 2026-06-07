@@ -1,0 +1,334 @@
+[
+  {
+    "name": "Yoshua Bengio",
+    "role": "Prof. Yoshua Bengio A.M. Turing Award",
+    "linkedinUrl": "https://ca.linkedin.com/in/yoshuabengio",
+    "bio": "Humans are very good at out-of-distribution generalization (at least compared to current AI systems) and it would be good to understand some of the inductive biases they may exploit and test these theories by evaluating how they can be translated into successful ML architectures, training frameworks and experiments. Natural language and experimental results in cognitive science and neuroscience provide a wealth of clues about the system 2 part of how humans understand the world and consciously r",
+    "researchAreas": [
+      "Deep Learning",
+      "NLP",
+      "Reinforcement Learning",
+      "Distributed Systems"
+    ]
+  },
+  {
+    "name": "Ali Idri",
+    "role": "Data Preprocessing in Medical Knowledge Discovery",
+    "linkedinUrl": "https://ma.linkedin.com/in/ali-idri-245762152",
+    "bio": "Current information and storage technologies are resulting in the explosive growth of many business, government, and scientiﬁc databases. This has led to the development of advanced techniques and tools to assist humans extract useful information and make informed decisions from available data. Knowledge discovery in databases (KDD) has therefore become a very active research field and its applications may range from business management, and market analysis, to engineering design and medical exp",
+    "researchAreas": [
+      "Healthcare"
+    ]
+  },
+  {
+    "name": "Hajar Moussannif",
+    "role": "Cadi Ayyad University, Morocco",
+    "linkedinUrl": "https://www.linkedin.com/in/hajar-mousannif-86257619a?originalSubdomain=ma",
+    "bio": "Hajar Mousannif is an associate professor and founder of the Master program in Data Science at Cadi Ayyad University, Morocco. She holds a PhD degree in computer Science, a Habilitation degree in Artificial Intelligence and an Engineering degree in Telecommunications. Her primary research interests include Artificial Intelligence, Machine Learning, Big Data, IoT, Human Computer Interaction, and next generation technologies. In addition to her academic experience, she chaired the Program Committe",
+    "researchAreas": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "name": "Halima Bensmail",
+    "role": "Qatar Computing Research Institute (QCRI), Qatar",
+    "linkedinUrl": "https://qa.linkedin.com/in/halima-bensmail-41016149",
+    "bio": "Halima Bensmail is a Machine learning statistician and bioinformatician who \n                    specializes in developing and analyzing big omics data using statistical machine learning and AI. She received her Bachelor in Mathematics from the University of Science Mohamed V, Morocco and a master’s and PhD degree in Mathematics and Statistics from the University of Paris VI, France. She was a postdoc in the Department of Statistics at the University of Washington, a research associate in the De",
+    "researchAreas": [
+      "Machine Learning",
+      "Healthcare"
+    ]
+  },
+  {
+    "name": "Kemal El Moujahid",
+    "role": "Google Machine Learning Ecosystem for Research and Production",
+    "linkedinUrl": "hhttps://www.linkedin.com/in/kemalelmoujahid",
+    "bio": "Kemal El Moujahid will introduce the Google Machine Learning ecosystem, and how it bridges the gap between Research and Production. Kemal will share how TensorFlow, JAX, TPUs, help researchers push the boundaries of ML, and empower developers to solve problems they are passionate about.",
+    "researchAreas": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "name": "Kaoutar El Maghraoui",
+    "role": "Powering the Future of AI through Specialized AI hardware Accelerators",
+    "linkedinUrl": "https://www.linkedin.com/in/kaoutar-el-maghraoui",
+    "bio": "Current information and storage technologies are resulting in the explosive growth of many business, government, and scientiﬁc databases. This has led to the development of advanced techniques and tools to assist humans extract useful information and make informed decisions from available data. Knowledge discovery in databases (KDD) has therefore become a very active research field and its applications may range from business management, and market analysis, to engineering design and medical exp",
+    "researchAreas": [
+      "Distributed Systems",
+      "Healthcare"
+    ]
+  },
+  {
+    "name": "Mehdi Ghissassi",
+    "role": "Building Research grounded products that impact billions of users",
+    "linkedinUrl": "https://www.linkedin.com/in/mghissassi/?originalSubdomain=uk",
+    "bio": "I will be sharing lessons from the past 5 years partnering with Google teams to build products that are grounded in the research and scientific breakthroughs coming out of DeepMind's research teams.",
+    "researchAreas": []
+  },
+  {
+    "name": "Mohamed Essaaidi",
+    "role": "Prof. Mohammed Essaidi",
+    "linkedinUrl": "https://www.linkedin.com/in/mohamed-essaaidi-25615214/?originalSubdomain=ma",
+    "bio": "Artificial Intelligence presents huge opportunities and  an unprecedented potential  for socioeconomic and sustainable development through the amazing tools it provides such as Machine / Deep Learning,  that allow to get insight from Data, and processes automation and optimization  in all kind of areas such as industry, education, healthcare, agriculture, energy, etc.\n                    According to McKinsey predictions,  AI may deliver an additional economic output of around US$13 trillion by ",
+    "researchAreas": [
+      "Deep Learning",
+      "Healthcare",
+      "Climate",
+      "Optimization"
+    ]
+  },
+  {
+    "name": "Ulrich Paquet",
+    "role": "AlphaZero: A Retrospective Story",
+    "linkedinUrl": "https://uk.linkedin.com/in/ulrich-paquet-72b6055a",
+    "bio": "As a chess-playing teenager in South Africa, I followed the match between Garry Kasparov and IBM's Deep Blue from a long distance. It was an exciting time and an exciting moment in the history of AI, computing and chess. As a youngster that was still only coding in Pascal, I wished that I had an insider's view of what IBM's system looked like. Fast forward more than two decades, and there was another exciting moment in the history of AI, computing and chess. DeepMind's reinforcement-learned syst",
+    "researchAreas": [
+      "Machine Learning",
+      "Deep Learning"
+    ]
+  },
+  {
+    "name": "Walid Daou",
+    "role": "How AI can Create Value for Corporates : History and Use Cases",
+    "linkedinUrl": "https://www.linkedin.com/in/walid-daou001/?originalSubdomain=fr",
+    "bio": "Even if more and more companies are building Data Science teams internally, a lot of AI projects do not create as much value as expected; why so? And how concretely Data Scientists can create value for corporates, especially for non tech companies?",
+    "researchAreas": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "name": "TheEvent",
+    "role": "",
+    "linkedinUrl": "https://twitter.com/MoroccoAI",
+    "bio": "",
+    "researchAreas": []
+  },
+  {
+    "name": "Geoffrey Hinton",
+    "role": "Prof. Geoffrey Hinton A.M. Turing Award",
+    "linkedinUrl": "https://www.cs.toronto.edu/~hinton/",
+    "bio": "Geoffrey Hinton received his PhD in Artificial Intelligence from\n                    Edinburgh in 1978.  After five years as a faculty member at\n                    Carnegie-Mellon he became a fellow of the Canadian Institute for\n                    Advanced Research and moved to the Department of Computer Science at\n                    the University of Toronto where he is now an emeritus professor. He is\n                    also a VP Engineering fellow at Google and Chief Scientific Adviser at",
+    "researchAreas": [
+      "Deep Learning",
+      "Distributed Systems"
+    ]
+  },
+  {
+    "name": "Abdelaziz Berrado",
+    "role": "Mohammed V University in Rabat, Morocco",
+    "linkedinUrl": "https://www.linkedin.com/in/berrado/",
+    "bio": "The challenges faced by industrial engineers when dealing with performance issues in complex environments, led to the integration of AI in general and machine learning in particular for addressing societal challenges and improving decision making. In this talk, we illustrate through different applied research projects conducted in Moroccan settings across different industries, businesses, and disciplines, existing opportunities and challenges at the interface between and IE and AI.",
+    "researchAreas": [
+      "Healthcare",
+      "Machine Learning"
+    ]
+  },
+  {
+    "name": "Bouchra Bouqata",
+    "role": "Microsoft Azure Research, USA",
+    "linkedinUrl": "https://www.linkedin.com/in/bouchra-bouqata-7157735/",
+    "bio": "The recent rapid progress of deep learning algorithms in generating realistic images, especially in Generative Adversarial Networks (GAN) and Variational Auto-Encoders (VAE), has helped advance new applications. Examples of such applications range from generating and manipulating new synthetic data for self-driving cars, to building/urban architectures, to interior design, and gaming. Furthermore, several applications have benefited from deep learning generative advancement, such as robotics man",
+    "researchAreas": [
+      "Computer Vision",
+      "Machine Learning",
+      "Deep Learning",
+      "Generative AI",
+      "Healthcare",
+      "Privacy & Security",
+      "Climate",
+      "Robotics",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "name": "Hicham Zmarrou",
+    "role": "Microsoft, Netherlands",
+    "linkedinUrl": "https://www.linkedin.com/in/berrado/",
+    "bio": "Much has been written about the high failure rate of AI projects. AI teams in different organizations often have difficulty \n                moving their insights and algorithms into business processes. At the same time, business teams often can't articulate the problems they \n                need to be solved. And they ignore their cultural resistance to AI innovations.\n                There is a designed-in structural tension between business and AI teams that needs to be recognized and addres",
+    "researchAreas": []
+  },
+  {
+    "name": "Malik Ghallab",
+    "role": "LAAS - CNRS, France",
+    "linkedinUrl": "https://www.linkedin.com/in/malikghallab",
+    "bio": "During the last decades, AI has moved from the circles of scholarly academic interests to the limelight of media and political concerns, \n                a two sided a fate for a scientific field which brings support as well as risks. Most OECD and many other countries established national \n                plans for AI with significant public and private funding. The establishment of such a plan (which might be under consideration for Morocco) \n                requires analyzing and responding t",
+    "researchAreas": [
+      "Robotics"
+    ]
+  },
+  {
+    "name": "Merouane Debbah",
+    "role": "Technology Innovation Institute, UAE",
+    "linkedinUrl": "https://www.linkedin.com/in/merouanedebbah",
+    "bio": "Fueled by the availability of more data and computing power, recent breakthroughs in cloud-based machine learning (ML) have transformed \n                every aspect of our lives from face recognition and medical diagnosis to natural language processing. \n                However, classical ML exerts severe demands in terms of energy, memory and computing resources, limiting their adoption for resource \n                constrained edge devices. The new breed of intelligent devices requires a nove",
+    "researchAreas": [
+      "Machine Learning",
+      "5G/6G",
+      "NLP",
+      "Healthcare",
+      "Climate",
+      "Distributed Systems"
+    ]
+  },
+  {
+    "name": "Priya Donti",
+    "role": "Dr. Priya L. Donti",
+    "linkedinUrl": "https://www.linkedin.com/in/priya-donti",
+    "bio": "Climate change is one of the greatest challenges that society faces today, requiring rapid action from all corners. In this talk, I will describe how machine learning can be a potentially powerful tool for addressing climate change, when applied in coordination with policy, engineering, and other areas of action. From energy to agriculture to disaster response, I will describe high impact problems where machine learning can help through avenues such as distilling decision-relevant information, o",
+    "researchAreas": [
+      "Machine Learning",
+      "Deep Learning",
+      "Climate",
+      "Optimization"
+    ]
+  },
+  {
+    "name": "Rachid Guerraoui",
+    "role": "EPFL, Switzerland",
+    "linkedinUrl": "https://www.linkedin.com/in/rachid-guerraoui-40587b15/",
+    "bio": "This talk will discuss the evolution of Artificial Intelligence,  highlighting some confusions and open challenges.",
+    "researchAreas": [
+      "Distributed Systems"
+    ]
+  },
+  {
+    "name": "Said Hamdioui",
+    "role": "TU Delft - Cognitive IC, Netherlands",
+    "linkedinUrl": "https://www.linkedin.com/in/saidhamdioui",
+    "bio": "Evolving IoT applications are extremely demanding in terms of storage, energy efficiency as well as intelligence. \n                Today's computer architectures fail to meet these requirements due to e.g., memory-processor data transfer bottleneck. \n                Hence, alternative computing architectures are being explored in the light of emerging new device technologies. \n                This talk provides a broad overview of emerging non-volatile devices based computation-in-memory (CIM) a",
+    "researchAreas": [
+      "Privacy & Security",
+      "In-Memory Computing",
+      "Climate"
+    ]
+  },
+  {
+    "name": "Michael I. Jordan",
+    "role": "An Alternative View on AI:  Collaborative Learning, Incentives, and Social Welfare",
+    "linkedinUrl": "https://people.eecs.berkeley.edu/~jordan/",
+    "bio": "Artificial intelligence (AI) has focused on a paradigm in which intelligence\n                    inheres in a single, autonomous agent.  Social issues are entirely secondary\n                    in this paradigm.  When AI systems are deployed in social contexts, however,\n                    the overall design of such systems is often naive, a centralized entity provides\n                    services to passive agents and reaps the rewards. Such a paradigm need not be\n                    the domina",
+    "researchAreas": []
+  },
+  {
+    "name": "Emad Mostaque",
+    "role": "Prof. Michael I. Jordan",
+    "linkedinUrl": "https://twitter.com/emostaque?lang=en",
+    "bio": "Artificial intelligence (AI) has focused on a paradigm in which intelligence\n                    inheres in a single, autonomous agent.  Social issues are entirely secondary\n                    in this paradigm.  When AI systems are deployed in social contexts, however,\n                    the overall design of such systems is often naive, a centralized entity provides\n                    services to passive agents and reaps the rewards. Such a paradigm need not be\n                    the domina",
+    "researchAreas": [
+      "Generative AI"
+    ]
+  },
+  {
+    "name": "Stuart J. Russell",
+    "role": "AI and the Future of Work",
+    "linkedinUrl": "https://www.linkedin.com/in/stuartjonathanrussell/",
+    "bio": "The implications of advances in AI for human employment are hotly debated, with predictions ranging from rosy scenarios to mass starvation. I show that while there may be temporary increases in\n                      human employment, particularly if AI is targeted at unmet needs, in\n                      the long run we must expect that almost all of what we currently call\n                      work will be done by machines. This leads to what Keynes called \"our\n                      real, our p",
+    "researchAreas": []
+  },
+  {
+    "name": "Karim Amor",
+    "role": "AI-Quantum Convergence to Ignite Our Renaissance",
+    "linkedinUrl": "https://www.linkedin.com/in/karim-amor-479986b/",
+    "bio": "How will Ai in convergence with Quantum technologies disrupt climate, health, and living costs, influencing personal choices? How will global governments, address regulation challenges, balancing innovation with ethical, privacy, and societal concerns?  This future tests our resilience and adaptability, with our collective decisions shaping a world where technology can either lead progress or challenge our core existence.",
+    "researchAreas": [
+      "Computer Vision",
+      "Privacy & Security",
+      "Quantum",
+      "Healthcare",
+      "Climate"
+    ]
+  },
+  {
+    "name": "Samy Bengio",
+    "role": "Generalization on the Unseen",
+    "linkedinUrl": "https://www.linkedin.com/in/bengio",
+    "bio": "This talk considers the learning of logical (Boolean) functions with focus on the generalization on the unseen (GOTU) setting, a strong case of out-of-distribution generalization. This is motivated by the fact that the rich combinatorial nature of data in certain reasoning tasks (e.g., arithmetic/logic) makes representative data sampling challenging, and learning successfully under GOTU gives a first vignette of an 'extrapolating' or 'reasoning' learner. We then study how different network archi",
+    "researchAreas": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "name": "Mehdi Bennis",
+    "role": "Wireless Edge Intelligence: Present and future",
+    "linkedinUrl": "https://www.linkedin.com/in/mehdi-bennis-56a4715",
+    "bio": "This talk will first start by presenting some recent results in distributed edge intelligence over/for wireless networks. Subsequently, a new vision, referred to as VisionX, sitting at the intersection of semantic (post-Shannon) communication and machine learning will be presented. At its core, instead of transmitting data that is either redundant, stale or useless to a receiver to carry out a task, only learned semantic representations are exchanged among agents to solve a downstream task. Thes",
+    "researchAreas": [
+      "Distributed Systems",
+      "5G/6G",
+      "Machine Learning"
+    ]
+  },
+  {
+    "name": "Hamid Bouchikhi",
+    "role": "AI, the administration of things, and the government of people",
+    "linkedinUrl": "https://www.linkedin.com/in/hamidbouchikhi",
+    "bio": "As AI agents gain rapidly increasing decision making capabilities, we must put extra care in thinking of and designing their 'employment' in organizations. The gist of this talk is a conceptual framework which may, hopefully, help managers make informed decisions about the allocation of decision making rights to AI agents.\n              In the past, one can fairly state that technological advances improved decision making in organizations and made them more productive and efficient. While this s",
+    "researchAreas": [
+      "Generative AI"
+    ]
+  },
+  {
+    "name": "Michael Conway",
+    "role": "Karim Amor",
+    "linkedinUrl": "https://www.linkedin.com/in/michaelconway644/",
+    "bio": "Artificial Intelligence (AI) has brought new paradigms in many fields including in computer vision and computer graphics. Examples include Image interpretation as in face recognition, or synthetic imaging as in deepfakes and generative AI.  The use of AI in image processing and coding has also shown unparalleled performance when compared to conventional methods, as witnessed by the use of end-to-end autoencoders for image compression and deep learning for image enhancement such as in super resol",
+    "researchAreas": [
+      "Computer Vision",
+      "Deep Learning",
+      "Generative AI"
+    ]
+  },
+  {
+    "name": "Adji Bousso Dieng",
+    "role": "The Future Of The Scientist's Work In The Age Of AI",
+    "linkedinUrl": "https://www.linkedin.com/in/diengadji45/",
+    "bio": "AI has penetrated many areas of society, especially in domains related to natural language and image processing. AI is also slowly penetrating the sciences, e.g. chemistry and materials science. In this talk, I will do an overview of how AI is being used in the natural sciences, the pitfalls that need to be avoided for AI to make a positive impact in those domains, and the role that accounting for diversity in AI can play in that.",
+    "researchAreas": [
+      "Machine Learning",
+      "NLP"
+    ]
+  },
+  {
+    "name": "Mounir Ghogho",
+    "role": "Efficient AI insights",
+    "linkedinUrl": "https://www.linkedin.com/in/mounir-ghogho-25927bb",
+    "bio": "I start by delineating the reasons for adopting Frugal AI and elucidating the fundamental design principles that form the basis for its implementation. Following that, the focus shifts to a pivotal design principle: efficiency. Within this realm, I explore noteworthy research approaches, shedding light on machine learning strategies that I believe hold promise for advancing efficient AI. Finally, I briefly touch upon ongoing work within a Horizon EU project on edge AI, showcasing tangible instan",
+    "researchAreas": [
+      "Machine Learning",
+      "Signal Processing",
+      "5G/6G"
+    ]
+  },
+  {
+    "name": "Maha Gmira",
+    "role": "Deep Q Network Method for Dynamic Job Shop Scheduling Problem",
+    "linkedinUrl": "https://www.linkedin.com/in/maha-g-68175613a/",
+    "bio": "Dynamic Job Shop Scheduling Problems (DJSSPs) have received increased interest from researchers in recent decades. However, the development of reinforcement learning (RL) approaches for solving DJSSPs has not been fully realized. In this presentation, we will present how we have used Deep Reinforcement Learning (DRL) approach on DJSSP to minimize the Makespan. A Deep Q Network (DQN) algorithm is designed with state features, actions, and rewards.",
+    "researchAreas": [
+      "Privacy & Security",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "name": "Touradj Ebrahimi",
+    "role": "AI-powered standards in visual information representation for humans and machines.",
+    "linkedinUrl": "https://www.linkedin.com/in/touradjebrahimi/",
+    "bio": "Artificial Intelligence (AI) has brought new paradigms in many fields including in computer vision and computer graphics. Examples include Image interpretation as in face recognition, or synthetic imaging as in deepfakes and generative AI.  The use of AI in image processing and coding has also shown unparalleled performance when compared to conventional methods, as witnessed by the use of end-to-end autoencoders for image compression and deep learning for image enhancement such as in super resol",
+    "researchAreas": [
+      "Privacy & Security",
+      "Signal Processing",
+      "Computer Vision",
+      "Deep Learning",
+      "Generative AI"
+    ]
+  },
+  {
+    "name": "Mohamed Saad",
+    "role": "The Future of work at the dawn of AI",
+    "linkedinUrl": "https://www.linkedin.com/in/mohamedsaadcisa/",
+    "bio": "In this rapidly evolving landscape, AI is reshaping traditional job roles, automating routine tasks, and unlocking unprecedented opportunities for innovation and efficiency. Our journey will navigate the collaborative synergy between humans and machines, emphasizing the pivotal role of AI in augmenting human capabilities and fostering a more fulfilling work experience. From predictive analytics optimizing talent acquisition to the ethical considerations of responsible AI practices, we'll unravel",
+    "researchAreas": [
+      "Optimization"
+    ]
+  }
+]

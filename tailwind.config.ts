@@ -6,17 +6,30 @@ const config: Config = {
     extend: {
       colors: {
         navy: {
-          DEFAULT: '#1B2A6B',
-          light: '#2D3E8E',
-          tint: '#E8EAF4',
+          DEFAULT: '#1F2A5C',
+          50:      '#EEF0F7',
+          900:     '#141B3D',
         },
         red: {
-          DEFAULT: '#C0272D',
-          tint: '#FCEAEA',
+          DEFAULT: '#C8202F',
+          50:      '#FBEAEC',
+          900:     '#7A1219',
         },
+        ink:  '#0A0A0B',
+        bone: '#F5F1EA',
+        mist: '#E8E5DE',
       },
       fontFamily: {
-        sans: ['var(--font-inter)', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        display: ['var(--font-fraunces)', 'Georgia', 'serif'],
+        sans:    ['var(--font-inter)',    'ui-sans-serif', 'system-ui', 'sans-serif'],
+        arabic:  ['var(--font-arabic)',   'var(--font-inter)', 'ui-sans-serif', 'sans-serif'],
+      },
+      transitionTimingFunction: {
+        'expo-out': 'cubic-bezier(0.16, 1, 0.3, 1)',
+      },
+      animation: {
+        'marquee':    'marquee 32s linear infinite',
+        'float-slow': 'float-slow 8s ease-in-out infinite',
       },
     },
   },
