@@ -1,0 +1,351 @@
+[
+  {
+    "title": "MoroccoAI Webinar 8: Boosting Low-resource Languages",
+    "slug": "moroccoai-webinar-8-boosting-low-resource-languages",
+    "date": "2021-10-19T23:00:00.000Z",
+    "speakerName": "Prof. Karim Bouzoubaa",
+    "speakerBio": "Full Professor of computer science at Mohammadia School of Engineers, Rabat, Morocco. Fulbright visiting professor at Binghamton University",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-8-boosting-language/"
+  },
+  {
+    "title": "MoroccoAI Webinar 7: Vision Transformer",
+    "slug": "moroccoai-webinar-7-vision-transformer",
+    "date": "2021-09-14T23:00:00.000Z",
+    "speakerName": "Prof. Hicham Hajji",
+    "speakerBio": "&nbsp;Associate professor at IAV Institute, Rabat, Morocco. Member of Databricks University Alliance, and Spatial Big Data and ML Expert",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "Computer Vision"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-8-vision-transformer/"
+  },
+  {
+    "title": "MoroccoAI Webinar 9: Distributional Reinforcement Learning",
+    "slug": "moroccoai-webinar-9-distributional-reinforcement-learning",
+    "date": "2021-11-23T23:00:00.000Z",
+    "speakerName": "Ilyas Malik",
+    "speakerBio": "Applied Scientist at Amazon, Paris, France",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "Reinforcement Learning"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-9-distributional-reinforcement-learning/"
+  },
+  {
+    "title": "MoroccoAI Webinar 10: EAGLE AI: Leveraging AI/ML for Plastic Marine Debris",
+    "slug": "moroccoai-webinar-10-eagle-ai-leveraging-ai-ml-for-plastic-marine-debris",
+    "date": "2022-02-15T23:00:00.000Z",
+    "speakerName": "Salahddine Kaba",
+    "speakerBio": "Head of R&amp;D Department at Complex of Technical and Industrial Centers, Casablanca, Morocco",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-10-eagle-ai-leveraging-ai-ml-for-plastic-marine-debris/"
+  },
+  {
+    "title": "MoroccoAI Webinar 11: Human body and face Generation: A deep Learning Approach",
+    "slug": "moroccoai-webinar-11-human-body-and-face-generation-a-deep-learning-approach",
+    "date": "2022-03-30T00:00:00.000Z",
+    "speakerName": "Pr. Mohamed Daoudi",
+    "speakerBio": "Professor of Computer Science at IMT Nord Europe, Douai, France IAPR Fellow, IEEE Senior Member",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "Deep Learning"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-11-human-body-and-face-generation-a-deep-learning-approach/"
+  },
+  {
+    "title": "MoroccoAI Webinar 13: AI for Immunology",
+    "slug": "moroccoai-webinar-13-ai-for-immunology",
+    "date": "2022-05-31T23:00:00.000Z",
+    "speakerName": "Tariq Daouda",
+    "speakerBio": "PhD , Research and Education Fellow, UM6P, Morocco",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "Healthcare"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-13-ai-for-immunology/"
+  },
+  {
+    "title": "MoroccoAI Webinar 14: Scaling Human-Centered Machine Translation",
+    "slug": "moroccoai-webinar-14-scaling-human-centered-machine-translation",
+    "date": "2022-07-05T23:00:00.000Z",
+    "speakerName": "Maha Elbayad",
+    "speakerBio": "PhD , AI Research Scientist at META AI, CA, USA",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "NLP"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-14-scaling-human-centered-machine-translation/"
+  },
+  {
+    "title": "MoroccoAI Webinar 15: How to build Machine Learning collaboratively?",
+    "slug": "moroccoai-webinar-15-how-to-build-machine-learning-collaboratively",
+    "date": "2022-09-22T23:00:00.000Z",
+    "speakerName": "Manuel Romero",
+    "speakerBio": "Hugging Face Fellow, Murcia, Spain",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "Machine Learning"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-15-how-to-build-machine-learning-collaboratively/"
+  },
+  {
+    "title": "MoroccoAI Webinar 16: Robust Machine Learning",
+    "slug": "moroccoai-webinar-16-robust-machine-learning",
+    "date": "2022-10-25T23:00:00.000Z",
+    "speakerName": "Mohammed Amine Bennouna",
+    "speakerBio": "PhD Student at Operations Research Center, MIT (Cambridge, MA, USA)",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "Machine Learning"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-16-robust-machine-learning/"
+  },
+  {
+    "title": "MoroccoAI Webinar 17: LAION-5B: An open large-scale dataset for training next generation image-text models",
+    "slug": "moroccoai-webinar-17-laion-5b-an-open-large-scale-dataset-for-training-next-generation-image-tex",
+    "date": "2022-11-15T23:00:00.000Z",
+    "speakerName": "Mehdi Cherti",
+    "speakerBio": "PostDoc researcher at Jülich Supercomputing Center (JSC), Germany",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-17-laion-5b-an-open-large-scale-dataset-for-training-next-generation-image-text-models/"
+  },
+  {
+    "title": "MoroccoAI Webinar 18: Building open large language models for code",
+    "slug": "moroccoai-webinar-18-building-open-large-language-models-for-code",
+    "date": "2023-02-21T23:00:00.000Z",
+    "speakerName": "Loubna Ben Allal",
+    "speakerBio": "ML Engineer at HuggingFace Paris , France",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "NLP",
+      "LLMs",
+      "Code"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-18-building-open-large-language-models-for-code/"
+  },
+  {
+    "title": "MoroccoAI Webinar 19: Confidence Learning with Conformal Prediction: Application to Multi-target Regression",
+    "slug": "moroccoai-webinar-19-confidence-learning-with-conformal-prediction-application-to-multi-target-r",
+    "date": "2023-03-22T00:00:00.000Z",
+    "speakerName": "Dr. Soundouss Messoudi",
+    "speakerBio": "Assistant Lecturer and Researcher at UTC, Heudiasyc, France",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-19-confidence-learning-with-conformal-prediction-application-to-multi-target-regression/"
+  },
+  {
+    "title": "MoroccoAI Webinar 20: Explainability of attention-based models: The Oncall Assistant use case",
+    "slug": "moroccoai-webinar-20-explainability-of-attention-based-models-the-oncall-assistant-use-case",
+    "date": "2023-04-25T23:00:00.000Z",
+    "speakerName": "Dr. Saousan Kaddami",
+    "speakerBio": "Research Scientist, Amazon, Luxembourg",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-20-explainability-of-attention-based-models-the-oncall-assistant-use-case/"
+  },
+  {
+    "title": "MoroccoAI Webinar 21: How can we use mathematics to improve deep learning?",
+    "slug": "moroccoai-webinar-21-how-can-we-use-mathematics-to-improve-deep-learning",
+    "date": "2023-05-30T23:00:00.000Z",
+    "speakerName": "Prof. Soufiane Hayou",
+    "speakerBio": "Assistant professor of Mathematics, National University of Singapore, Singapore",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "Deep Learning",
+      "Theory"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-21-how-can-we-use-mathematics-to-improve-deep-learning/"
+  },
+  {
+    "title": "MoroccoAI Webinar 22: Narrowing Precipitation Uncertainty over High Mountain Asia with Probabilistic Machine Learning",
+    "slug": "moroccoai-webinar-22-narrowing-precipitation-uncertainty-over-high-mountain-asia-with-probabilis",
+    "date": "2023-07-04T23:00:00.000Z",
+    "speakerName": "Kenza Tazi",
+    "speakerBio": "PhD Candidate, University of Cambridge, England",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "Machine Learning",
+      "Theory",
+      "Climate"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-22-narrowing-precipitation-uncertainty-over-high-mountain-asia-with-probabilistic-machine-learning/"
+  },
+  {
+    "title": "MoroccoAI Webinar 23: Homomorphism AutoEncoder – Learning Group Structured Representations from Interaction.",
+    "slug": "moroccoai-webinar-23-homomorphism-autoencoder-learning-group-structured-representations-from-int",
+    "date": "2023-09-12T23:00:00.000Z",
+    "speakerName": "Hamza Keurti",
+    "speakerBio": "PhD Researcher, Max Planck ETH Center , Switzerland",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "Generative AI",
+      "Code"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-23-homomorphism-autoencoder-learning-group-structured-representations-from-interaction/"
+  },
+  {
+    "title": "MoroccoAI Webinar 24: Trustworthy Machine Learning: Robustness and Privacy",
+    "slug": "moroccoai-webinar-24-trustworthy-machine-learning-robustness-and-privacy",
+    "date": "2023-10-24T23:00:00.000Z",
+    "speakerName": "Youssef Allouah",
+    "speakerBio": "PhD Researcher, EPFL, Switzerland",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "Machine Learning",
+      "Theory",
+      "Privacy"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-24-trustworthy-machine-learning-robustness-and-privacy/"
+  },
+  {
+    "title": "MoroccoAI Webinar 25: Unlocking Generative Models: Insights from Random Matrix Theory",
+    "slug": "moroccoai-webinar-25-unlocking-generative-models-insights-from-random-matrix-theory",
+    "date": "2023-11-28T23:00:00.000Z",
+    "speakerName": "Dr. Mohamed El Amine Seddik",
+    "speakerBio": "AI Lead Researcher, TII, United Arab Emirates",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "Generative AI"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-25-unlocking-generative-models-insights-from-random-matrix-theory/"
+  },
+  {
+    "title": "MoroccoAI Webinar 26: Half-Quadratic Quantization of Large Machine Learning Models",
+    "slug": "moroccoai-webinar-26-half-quadratic-quantization-of-large-machine-learning-models",
+    "date": "2024-01-30T23:00:00.000Z",
+    "speakerName": "Dr. Hicham Badri",
+    "speakerBio": "Principal Research Scientist, Mobius Labs, Germany",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "Machine Learning"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-26-half-quadratic-quantization-of-large-machine-learning-models/"
+  },
+  {
+    "title": "MoroccoAI Webinar 19: Theoretically Upper-Bounding the Expected Adversarial Robustness of GNNs",
+    "slug": "moroccoai-webinar-19-theoretically-upper-bounding-the-expected-adversarial-robustness-of-gnns",
+    "date": "2024-03-31T00:00:00.000Z",
+    "speakerName": "Morocco.AI Speaker",
+    "speakerBio": "",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "Theory"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-19-theoretically-upper-bounding-the-expected-adversarial-robustness-of-gnns/"
+  },
+  {
+    "title": "MoroccoAI Webinar 22: Algorithms with Untrusted Predictions",
+    "slug": "moroccoai-webinar-22-algorithms-with-untrusted-predictions",
+    "date": "2024-07-09T23:00:00.000Z",
+    "speakerName": "Morocco.AI Speaker",
+    "speakerBio": "",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-22-algorithms-with-untrusted-predictions/"
+  },
+  {
+    "title": "MoroccoAI Webinar 20: Dr. Afaf Taïk – Bias in Machine Learning Models",
+    "slug": "moroccoai-webinar-20-dr-afaf-taik-bias-in-machine-learning-models",
+    "date": "2024-05-23T23:00:00.000Z",
+    "speakerName": "Dr. Afaf Ta",
+    "speakerBio": "",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "Machine Learning",
+      "Bias & Fairness"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-20-dr-afaf-taik-bias-in-machine-learning-models/"
+  },
+  {
+    "title": "MoroccoAI Webinar 21: Multimodal AI for Radiology Applications",
+    "slug": "moroccoai-webinar-21-multimodal-ai-for-radiology-applications",
+    "date": "2024-06-18T23:00:00.000Z",
+    "speakerName": "Morocco.AI Speaker",
+    "speakerBio": "",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "Computer Vision"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-21-multimodal-ai-for-radiology-applications/"
+  },
+  {
+    "title": "MoroccoAI Webinar 23:  From Qubits to Clinics: Enhancing Cancer Diagnosis with Quantum Machine Learning",
+    "slug": "moroccoai-webinar-23-from-qubits-to-clinics-enhancing-cancer-diagnosis-with-quantum-machine-lear",
+    "date": "2024-09-26T23:00:00.000Z",
+    "speakerName": "Morocco.AI Speaker",
+    "speakerBio": "",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "Machine Learning",
+      "Healthcare",
+      "Quantum"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-23-from-qubits-to-clinics-enhancing-cancer-diagnosis-with-quantum-machine-learning/"
+  },
+  {
+    "title": "MoroccoAI Webinar 25:  Machine Translation Hallucination Detection",
+    "slug": "moroccoai-webinar-25-machine-translation-hallucination-detection",
+    "date": "2024-12-11T23:00:00.000Z",
+    "speakerName": "Morocco.AI Speaker",
+    "speakerBio": "",
+    "speakerImageUrl": "",
+    "description": "",
+    "youtubeUrl": "",
+    "tags": [
+      "NLP"
+    ],
+    "sourceUrl": "https://morocco.ai/event/moroccoai-webinar-25-machine-translation-hallucination-detection/"
+  }
+]
