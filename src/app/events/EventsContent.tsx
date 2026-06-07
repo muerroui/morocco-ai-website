@@ -165,7 +165,7 @@ export default function EventsContent({ events }: { events: Event[] }) {
                       <span className="text-bone/22 text-xs font-medium tabular-nums shrink-0 w-24">{d.full}</span>
                       <div className="flex items-center gap-3 flex-1 min-w-0">
                         {ev.image?.asset && (
-                          <div className="shrink-0 w-8 h-8 rounded-lg overflow-hidden">
+                          <div className="shrink-0 w-8 h-8 rounded-lg overflow-hidden" style={{ width: '300px', height: 'auto' }}>
                             <Image
                               src={urlFor(ev.image).url()}
                               alt={ev.title}
