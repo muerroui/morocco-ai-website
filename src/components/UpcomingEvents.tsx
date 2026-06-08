@@ -56,6 +56,7 @@ export default function UpcomingEvents() {
               <span className="w-6 h-px bg-red inline-block" />
               Upcoming
             </motion.p>
+            <p style={{ fontFamily: "'JetBrains Mono', 'Courier New', monospace", fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.15em', color: '#D4A574', marginBottom: 8 }}>[ 03 / EVENTS ]</p>
             <motion.h2
               initial={{ opacity: 0, y: 16 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}

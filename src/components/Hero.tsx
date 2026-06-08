@@ -210,6 +210,29 @@ export default function Hero() {
         }}
       />
 
+      {/* Zellige rosette — bottom-left decorative */}
+      <div className="absolute bottom-0 start-0 pointer-events-none" style={{ zIndex: 0 }}>
+        <motion.svg
+          width="320"
+          height="320"
+          viewBox="0 0 320 320"
+          aria-hidden="true"
+          animate={{ rotate: 360 }}
+          transition={{ duration: 1200, repeat: Infinity, ease: 'linear' }}
+          style={{ opacity: 0.12 }}
+        >
+          <motion.path
+            d="M 160,5 L 184.9,99.9 L 269.6,50.4 L 220.1,135.1 L 315,160 L 220.1,184.9 L 269.6,269.6 L 184.9,220.1 L 160,315 L 135.1,220.1 L 50.4,269.6 L 99.9,184.9 L 5,160 L 99.9,135.1 L 50.4,50.4 L 135.1,99.9 Z"
+            fill="none"
+            stroke="#D4A574"
+            strokeWidth="1.5"
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{ duration: 8, ease: 'easeInOut' }}
+          />
+        </motion.svg>
+      </div>
+
       {/* Content */}
       <div className="relative z-10 flex-1 flex flex-col justify-center max-w-7xl mx-auto w-full px-5 sm:px-8 lg:px-12 pt-28 pb-20">
 
@@ -236,7 +259,7 @@ export default function Hero() {
           >
             Building AI
             <br />
-            <em className="not-italic text-red">for</em> Morocco.
+            <em className="not-italic text-red">for</em>{' '}<span style={{ color: '#D4A574' }}>Morocco.</span>
           </motion.h1>
         </div>
 

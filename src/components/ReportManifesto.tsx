@@ -37,6 +37,7 @@ export default function ReportManifesto() {
               Policy & Research
             </motion.p>
 
+            <p style={{ fontFamily: "'JetBrains Mono', 'Courier New', monospace", fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.15em', color: '#D4A574', marginBottom: 8 }}>[ 04 / RESEARCH ]</p>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}

@@ -62,6 +62,7 @@ export default function MarqueeSpeakers({ members }: { members: Member[] }) {
               <span className="w-6 h-px bg-red inline-block" />
               Past Keynotes
             </motion.p>
+            <p style={{ fontFamily: "'JetBrains Mono', 'Courier New', monospace", fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.15em', color: '#D4A574', marginBottom: 8 }}>[ 02 / SPEAKERS ]</p>
             <motion.h2
               initial={{ opacity: 0, y: 16 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}

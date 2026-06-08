@@ -61,6 +61,7 @@ export default function WhatWeDo() {
               <span className="w-6 h-px bg-red inline-block" />
               What we do
             </p>
+            <p style={{ fontFamily: "'JetBrains Mono', 'Courier New', monospace", fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.15em', color: '#D4A574', marginBottom: 8 }}>[ 01 / WHAT WE DO ]</p>
             <h2 className="text-display-md text-bone">
               Four pillars.<br />One mission.
             </h2>
