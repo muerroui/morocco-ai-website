@@ -13,7 +13,7 @@ export default function WebinarCard({ webinar }: { webinar: Webinar }) {
       {/* Red gradient top bar */}
       <div className="h-[3px] bg-gradient-to-r from-[#C0272D] via-[#E03030] to-[#1B2A6B]" />
 
-      <div className="relative h-44 bg-[#0D0D1A] overflow-hidden">
+      <div className={`relative overflow-hidden bg-[#0D0D1A] ${sanityThumb ? 'aspect-square' : 'h-44'}`}>
         {thumbUrl ? (
           <>
             <Image
@@ -21,7 +21,7 @@ export default function WebinarCard({ webinar }: { webinar: Webinar }) {
               alt={webinar.title}
               fill
               sizes="(max-width: 768px) 100vw, 33vw"
-              className="object-cover duotone opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
+              className={`opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500 ${sanityThumb ? 'object-contain' : 'object-cover duotone'}`}
               unoptimized={!!sanityThumb}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#1A1A2E] via-transparent to-transparent" />
